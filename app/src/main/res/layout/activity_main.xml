@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_150dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:hint="@string/nameETHint" />
+
+    <EditText
+        android:id="@+id/surnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:hint="@string/surnameETHint" />
+
+    <EditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:hint="@string/addressETHint" />
+
+    <EditText
+        android:id="@+id/phoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:hint="@string/phoneETHint" />
+
+    <Button
+        android:id="@+id/saveButtonBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_25dp"
+        android:text="@string/saveButtonText" />
+
+    <ListView
+        android:id="@+id/listViewLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginEnd="@dimen/_10dp" />
+
+
+</LinearLayout>

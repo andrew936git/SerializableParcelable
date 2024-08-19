@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beauBlue"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50dp"
+        android:background="@color/blue"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_200dp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_12pt"
+        android:textStyle="italic" />
+
+</LinearLayout>

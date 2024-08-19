@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SerializableParcelable</string>
+    <string name="nameETHint">Введите имя</string>
+    <string name="surnameETHint">Введите фамилию</string>
+    <string name="addressETHint">Введите адрес</string>
+    <string name="phoneETHint">Введите номер телефона</string>
+    <string name="saveButtonText">Сохранить</string>
+</resources>
